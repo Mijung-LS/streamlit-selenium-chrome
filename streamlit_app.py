@@ -20,6 +20,6 @@ with st.echo():
 
     driver = get_driver()
     url = "https://www.naver.com/"
-    driver.get(url)
+    driver.get(URL)
 
     st.code(driver.page_source)
