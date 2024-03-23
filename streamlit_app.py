@@ -19,7 +19,7 @@ with st.echo():
     options.add_argument("--headless")
 
     driver = get_driver()
-    url = "https://www.lme.com/api/trading-data/chart-data?datasourceId=39fabad0-95ca-491b-a733-bcef31818b16&startDate=2024-02-19&endDate=2024-03-17"
+    url = "https://www.naver.com/"
     driver.get(url)
 
     st.code(driver.page_source)
